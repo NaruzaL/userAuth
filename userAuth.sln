@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05AAB1C0-C062-4AE9-A52A-8CC25D231A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56BE2B05-C75D-495B-B489-184FB4C02428}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "userAuth", "src\userAuth\userAuth.xproj", "{46337A68-486A-46C7-9BA4-A47009FCE01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46337A68-486A-46C7-9BA4-A47009FCE01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46337A68-486A-46C7-9BA4-A47009FCE01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46337A68-486A-46C7-9BA4-A47009FCE01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46337A68-486A-46C7-9BA4-A47009FCE01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46337A68-486A-46C7-9BA4-A47009FCE01A} = {05AAB1C0-C062-4AE9-A52A-8CC25D231A64}
+	EndGlobalSection
+EndGlobal
